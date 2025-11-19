@@ -3,8 +3,9 @@ body {
     background-color: pink;
     background-image: url('https://i.pinimg.com/1200x/5b/c5/b8/5bc5b85e3fd0bd4ab477aed646ad7d6d.jpg');
     background-position: center top;
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
     background-size: cover;
+    background-attachment: fixed; /*o background fica parado enquanto somente o conteudo(main) role*/
 }
 
 main {
@@ -15,5 +16,10 @@ main {
     margin: auto;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid pink
+    border: 1px solid pink;
+    max-width: 400px;
 }
+
+/* shorthand - background
+  color > image > position > repeat > [size] > attachment 
+  background: pink url('caminho') center top no-repeat cover fixed */
