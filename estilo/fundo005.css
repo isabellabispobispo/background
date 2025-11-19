@@ -1,0 +1,19 @@
+body {
+    height: 98vh;
+    background-color: pink;
+    background-image: url('https://i.pinimg.com/1200x/5b/c5/b8/5bc5b85e3fd0bd4ab477aed646ad7d6d.jpg');
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    padding: 5px;
+    margin-top: 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid pink
+}
