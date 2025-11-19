@@ -1,0 +1,42 @@
+#container {
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+    height: 96vh;
+    background-color: pink;
+    padding: 10px;
+    position: relative;
+}
+
+#conteudo {
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: skyblue;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* O #conteudo fica flutuando dentro da página e NÃO segue o fluxo normal dos elementos.
+Ele vai se posicionar usando top e left.
+Absolute sempre precisa de um pai com position: relative.
+Se não tiver, ele usa a tela inteira como referência. */
+
+    
+/* transform: translate(-50%, -50%);
+Esse é o truque para centralizar PERFEITAMENTE.
+Ele move a caixa para trás:
+-50% da própria largura
+-50% da própria altura  */
+
+
+/* relative → marca um lugar no espaço
+absolute → posiciona algo usando esse espaço
+left e top → coordenadas
+translate → alinha direitinho usando a própria largura/altura */
